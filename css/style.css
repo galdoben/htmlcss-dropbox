@@ -24,7 +24,7 @@
 header ul li a:hover{
     text-decoration: underline;
 }
-ul{
+.containerintro .nav ul{
     display: flex;
     list-style: none;
     text-align: center;
@@ -40,26 +40,43 @@ ul{
     padding: 5px 10px;
     text-decoration: none;
     
+    
 }
 
 .jumbo{
     background-color: rgb(135, 187, 215);
-    height: 700px;
+    height: 780px;
 
+
+}
+.testone{
+    margin: 0 30px;
+    
+}
+.arrow{
+    font-size: 40px;
+    margin: 130px auto;
+}
+.arrow a{
+    color: black;
+}
+.work h1{
+    font-size: 75px;
+    margin: 0 auto;
 }
 .immtwo img{
     width: 900px;
-    height: 550px;
+    height: 500px;
     justify-content: space-around;
 
 }
 .all{
     display: flex;
     margin: 0 auto;
-    padding: 90px;
+    padding: 60px;
 }
 .work{
-    width: 600px;
+    width: 90%;
     padding: 50px;
     margin: 20px auto;
 }
@@ -67,28 +84,167 @@ ul{
     margin:  50px auto;
     
 }
-.arrow{
-    margin: 150px auto;
-}
 
 
 main{
     padding: 100px;
 }
+
 .fatt{
-    margin: 80px auto;
+    margin: 80px 50px;
+}
+
+.plane{
+    padding: 30px;
+    margin: 80px 10px;
+    text-align: left;
+    
 }
 
 
+
+.plane h2{
+    font-size:40px;
+}
+
 .payment{
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 40px;
 
     
 }
 
-.single{
-   background-color: blue;
-   box-sizing: border-box;
 
+.single{
+    
+    padding: 20px 10px;
+    width: 30%;
+    margin: 10px 10px;
+    border: 1px solid lightgray;
+}
+
+    
+
+
+
+
+
+.navtwo ul li{
+    padding: 13px 0;
+    list-style: none;
+}
+
+
+   
+.enterprise{
+    position: relative;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+    width: 73%;
+}
+.teamstart{
+    text-align: center;
+    padding: 7px 7px;
+}
+.secondstart{
+    position: absolute;
+    right: 0;
+    bottom: 115px;
+    margin: 20px;
+}
+.secondstart a{
+    font-size: 13px;
+    padding: 15px 40px;
+
+}
+
+.headercol{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 33%;
+}
+hr{
+    margin: 20px 0;
+}
+.contact h2{
+    
+    margin: 30px 10px;
+
+}
+.contact h4{
+    margin: 30px 10px;
+}
+.contact p{
+    margin: 30px 10px;
+}
+
+.partner{
+    width: 86%;
+    margin: 0 auto;
+    padding: 80px;
+    display: flex;
+}
+.partnertwo{
+    padding: 30px 30px;
+    margin: 30px 30px;
+}
+.bottomtwo{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 7px 7px;
+    
+}
+.partnertwo a{
+    text-decoration: none;
+    color: gray;
+}    
+.partnertwo p{
+    padding: 30px 0;
+}
+.imgteam img{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.containercard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px;
+}
+.card{
+    width: 30%;
+    
+}
+
+.imgone img{
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+}
+
+.containerlist{
+    background-color:black
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+.list ul li a{
+    margin: 30px 30px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.list ul li a:hover{
+    text-decoration: underline;
+}
+.list ul li{
+    padding-bottom: 15px;
 }
