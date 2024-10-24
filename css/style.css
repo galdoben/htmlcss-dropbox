@@ -210,15 +210,21 @@ hr{
 }
 
 .containercard{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 80px;
+    margin: 0 auto;
 }
 .card{
     width: 30%;
+    padding: 5px 5px;
+    margin: 0 auto;
     
+}
+.card p{
+    font-size: 15px;
+    padding: 20px 0;
 }
 
 .imgone img{
